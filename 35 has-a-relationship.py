@@ -1,4 +1,4 @@
-'''class OS:
+class OS:
     def __init__(self):
         self.status=True
         print("os is ready")
@@ -14,8 +14,8 @@ m1=Mobile("apple")
 print(m1.mname)
 print(m1.o.status)
 m1.o.getOS()
-"""del m1
-print(m1.o.status)""" '''
+del m1
+print(m1.o.status)
 
 #aggregate
 class Charger:
