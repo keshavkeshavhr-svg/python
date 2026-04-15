@@ -13,7 +13,7 @@ def fun2():
     except Exception as e:
         print("error occured in fun2")
         raise e
-        print("leaving fun2")
+            print("leaving fun2")
 print("pgm is started")
 fun1()
 print("pgm end")
